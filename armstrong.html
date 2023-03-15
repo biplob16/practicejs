@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>armstrong number</h1>
+    <script>
+        var n=prompt("enter line no:");
+        var r=0,s=0,m;
+        m=n;
+        while(n>10){
+        r=parseInt(n/10);
+        s=s+r*r*r;
+        n=parseInt(n/10);
+        }
+        if(m==s)
+             alert("armstrong");
+            else
+               alert("not armstrong");
+    </script>
+</body>
+</html>
